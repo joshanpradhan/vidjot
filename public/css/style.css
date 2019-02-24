@@ -1,0 +1,21 @@
+body {
+    background-color: #e9ebee;
+}
+
+.alert-danger {
+    background-color: #ea5959;
+    color: white;
+}
+
+.alert-success {
+
+    background-color: #22c65b;
+    color: white;
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}

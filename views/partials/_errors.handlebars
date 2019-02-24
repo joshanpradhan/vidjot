@@ -1,0 +1,15 @@
+<div class="row justify-content-center">
+    <div class="col-6 mb-1">
+        {{#if error}}
+        <div class="alert alert-danger" role="alert">
+            {{error}}
+        </div>
+        {{/if}}
+        {{#each errors}}
+        <div class="alert alert-danger" role="alert">
+            {{text}}
+        </div>
+        {{else}}
+        {{/each}}
+    </div>
+</div>

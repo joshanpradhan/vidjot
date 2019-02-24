@@ -1,0 +1,14 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        {{#if success_msg}}
+        <div class="alert alert-success">
+            <h6>{{success_msg}}</h6>
+        </div>
+        {{/if}}
+        {{#if error_msg}}
+        <div class="alert alert-danger">
+            {{error_msg}}
+        </div>
+        {{/if}}
+    </div>
+</div>
